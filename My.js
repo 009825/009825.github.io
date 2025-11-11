@@ -14,6 +14,9 @@ button.onclick = function(){
         h3.textContent = "Your new number is 11"
         p.textContent = ""
     }
+    else if(ans=="42"){
+        p.textContent = "the answer to life, the universe and everything"
+    }
     else{
         p.textContent = "for why even live, if you dont know your place"
     }
